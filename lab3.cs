@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,8 @@ using System.Threading.Tasks;
                 int x2;
                 double yy;
                 double steph;
+                Console.Clear();
+                Console.WriteLine("Lab 3");
                 Console.WriteLine("Choose cycle: ");
                 Console.WriteLine("1) for ");
                 Console.WriteLine("2) while ");
@@ -25,6 +28,8 @@ using System.Threading.Tasks;
                 switch (cycle)
                 {
                     case 1:
+                        Console.Clear();
+                        Console.WriteLine("Lab 3");
                         Console.WriteLine("Task 2 from lab 2 with for cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
@@ -55,6 +60,8 @@ using System.Threading.Tasks;
                         }
                         break;
                     case 2:
+                        Console.Clear();
+                        Console.WriteLine("Lab 3");
                         Console.WriteLine("Task 2 from lab 2 with while cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
@@ -86,6 +93,8 @@ using System.Threading.Tasks;
                         
                         break;
                     case 3:
+                        Console.Clear();
+                        Console.WriteLine("Lab 3");
                         Console.WriteLine("Task 2 from lab 2 with do-while cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
@@ -117,6 +126,29 @@ using System.Threading.Tasks;
                         while (x1 <= x2) ;                    
                         break;
                 }
+                break;
+            case 2:
+                Console.Clear();
+                Console.WriteLine("Lab 3");
+                Console.WriteLine("Task 2");
+                Console.Write("Enter x: ");
+                int xx = Convert.ToInt16(Console.ReadLine());
+                int k = 0;
+                for (int i = 1;i<=20;i++)
+                {
+                    double otvet = Math.Sin(Math.Pow(xx,i));
+                    Console.WriteLine("i = "+i+" answer "+otvet);
+                    if(otvet < 0)
+                    {
+                        k++;
+                    }
+                }
+                Console.WriteLine("Value of negative numbers " + k);
+                break;
+            case 3:
+                Console.Clear();
+                Console.WriteLine("Lab 3");
+                Console.WriteLine("Task 3");
                 break;
         }
     }

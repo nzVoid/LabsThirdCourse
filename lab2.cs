@@ -21,11 +21,15 @@ internal class lab2
     }
 
     public static void var2()
-    {   
+    {
+        Console.Clear();
+        Console.WriteLine("Lab 2");
         Console.WriteLine("Choose task: ");
         int task = Convert.ToInt32(Console.ReadLine());
         switch (task) {
             case 1:
+                Console.Clear();
+                Console.WriteLine("Lab 2");
                 Console.WriteLine("Task 1");
                 int x, y, x1 = -1, y1 = -1, x2 = 1, y2 = -1, x3 = 0, y3 = 0;
                 x = Convert.ToInt16(Console.ReadLine());
@@ -33,6 +37,8 @@ internal class lab2
                 Console.WriteLine(triangle(x, y, x1, y1, x2, y2, x3, y3));
                 break;
             case 2:
+                Console.Clear();
+                Console.WriteLine("Lab 2");
                 Console.WriteLine("Task 2");
                 Console.WriteLine("x = -2");
                 double xx = -2;
@@ -99,6 +105,8 @@ internal class lab2
                     [4]=2,
                     [5]=2,
                 };
+                Console.Clear();
+                Console.WriteLine("Lab 2");
                 Console.WriteLine("Task 3");
                 Console.WriteLine("Choose day: ");
                 int day = Convert.ToInt16(Console.ReadLine());
@@ -120,27 +128,6 @@ internal class lab2
                         Console.WriteLine("Day " + day + " value of lesson " + days[day]);
                         break;
                 }
-                break;
-        }
-    }
-
-    public static void var3()
-    {
-        Console.WriteLine("Choose task: ");
-        int task = Convert.ToInt32(Console.ReadLine());
-        switch (task)
-        {
-            case 1:
-                Console.WriteLine("Task 1");
-                
-                break;
-            case 2:
-                Console.WriteLine("Task 2");
-
-                break;
-            case 3:
-                Console.WriteLine("Task 3");
-               
                 break;
         }
     }
