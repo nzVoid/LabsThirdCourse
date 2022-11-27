@@ -89,6 +89,7 @@ internal class lab2
                     Console.WriteLine("y = " + yy);
                 }
                 break;
+
             case 3:
                 var days = new Dictionary<int, int>()
                 {

@@ -20,26 +20,6 @@ class LabsThirdCourse
         }
     }
 
-    public static void choose_var(int var)
-    {
-        switch (var)
-        {
-            case 1:
-                Console.WriteLine("not found");
-                function();
-                break;
-            case 2:
-                lab2.var2();
-                function();
-                break;
-            case 3:
-                lab2.var3();
-                function();
-                break;
-        }
-
-    }
-
     static int Main()
     {
         Console.WriteLine("All labs of C#");
@@ -50,8 +30,35 @@ class LabsThirdCourse
             case 2:
                 Console.WriteLine("Lab 2");
                 Console.Write("Choose var: ");
-                int variant = Convert.ToInt16(Console.ReadLine());
-                choose_var(variant);
+                int v = Convert.ToInt16(Console.ReadLine());
+                switch (v)
+                {
+                    case 1:
+                        Console.WriteLine("not found");
+                        function();
+                        break;
+                    case 2:
+                        lab2.var2();
+                        function();
+                        break;
+
+                }
+                break;
+            case 3:
+                Console.WriteLine("Lab 3");
+                Console.Write("Choose var: ");
+                int va = Convert.ToInt16(Console.ReadLine());
+                switch (va)
+                {
+                    case 1:
+                        Console.WriteLine("not found");
+                        function();
+                        break;
+                    case 2:
+                        lab3.var2();
+                        function();
+                        break;
+                }
                 break;
             default:
                 Console.WriteLine("Choose corectly number!");
