@@ -30,7 +30,7 @@ using System.Threading.Tasks;
                     case 1:
                         Console.Clear();
                         Console.WriteLine("Lab 3");
-                        Console.WriteLine("Task 2 from lab 2 with for cycle");
+                        Console.WriteLine("Task 2 from lab 2 with FOR cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
                         Console.Write("Enter start value: ");
@@ -62,7 +62,7 @@ using System.Threading.Tasks;
                     case 2:
                         Console.Clear();
                         Console.WriteLine("Lab 3");
-                        Console.WriteLine("Task 2 from lab 2 with while cycle");
+                        Console.WriteLine("Task 2 from lab 2 with WHILE cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
                         Console.Write("Enter start value: ");
@@ -95,7 +95,7 @@ using System.Threading.Tasks;
                     case 3:
                         Console.Clear();
                         Console.WriteLine("Lab 3");
-                        Console.WriteLine("Task 2 from lab 2 with do-while cycle");
+                        Console.WriteLine("Task 2 from lab 2 with WHILE cycle");
                         Console.Write("Enter step: ");
                         steph = Convert.ToDouble(Console.ReadLine());
                         Console.Write("Enter start value: ");

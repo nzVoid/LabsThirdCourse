@@ -45,6 +45,12 @@ class LabsThirdCourse
                 lab3.var2();
                 function();
                 break;
+            case 4:
+                Console.Clear();
+                Console.WriteLine("Lab 4");
+                lab4.var2();
+                function();
+                break;
             default:
                 Console.WriteLine("Choose corectly number!");
                 Main();
